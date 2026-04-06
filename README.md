@@ -1,1 +1,13 @@
 # rlhf-workshop
+
+## Setup
+```
+brew install python@3.11
+python3.11 -m venv venv
+source venv/bin/activate
+```
+```
+pip install torch==2.2.2 transformers==4.38.2 trl==0.7.11 datasets==2.18.0 accelerate==0.27.2 more-itertools==10.2.0
+```
+## Workshop Slides
+Access the slideshow [here](https://docs.google.com/presentation/d/1LNpeU5uq5Ch1X6XPBavSqv-LMP0kyIO-ogiZjei0TyA/edit?slide=id.p#slide=id.p).
